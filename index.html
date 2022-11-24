@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <title>Exercício 01 - Objeto e Vue</title>
+   <link rel="stylesheet" href="main.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+   <!-- Importar o Vue.js -->
+  <script src="https://unpkg.com/vue@3"></script>
+   
+</head>
+<body>
+         
+   <p>Vue - Exercício 01</p>
+   <!-- <h2>Listagem de filmes</h2> -->
+
+   <div id="app">
+
+      <!-- Crie aqui o template utilizando as diretivas Vue -->
+      <div v-for="filme of movies">
+         <h2> {{ filme.name }} </h2>
+         <p>Título do Filme</p>
+         <img v-bind:src="filme.image">
+         <h2> {{ filme.city }} </h2>
+         <p>Cidade</p>
+      </div>
+      
+      <!-- fim do template -->
+
+   </div>
+
+   <script src="vue_exe_01.js"></script>  
+
+
+</body>
+</html>
