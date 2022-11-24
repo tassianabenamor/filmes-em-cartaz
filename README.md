@@ -1,4 +1,4 @@
-# Páginas de filmes em cartaz utilizando Framework Vue.js
+# Páginas de filmes em cartaz utilizando Framework VueJs
 Exercício desenvolvido para a disciplina de Frameworks Front-End e Conexão com o Back-End, Instituto Infnet.
 
 
